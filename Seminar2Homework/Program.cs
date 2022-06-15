@@ -46,4 +46,15 @@ else
 
 // Task 15
 
+int num;
+Console.WriteLine("Please input weekday number: ");
+num = Convert.ToInt32(Console.ReadLine());
 
+if (num >= 1 && num <= 5)
+{
+    Console.WriteLine("no");
+}
+else
+{
+    Console.WriteLine("yes");
+}
